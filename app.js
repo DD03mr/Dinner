@@ -15,11 +15,11 @@
                 result = "中吉";
             } else if (colour === "白" && number === 2) {
                 result = "大凶";
-            } else if (colour === "オレンジ" && number === 0) {
+            } else if (colour === "紫" && number === 0) {
                 result = "凶";
-            } else if (colour === "オレンジ" && number === 1) {
+            } else if (colour === "紫" && number === 1) {
                 result = "大吉";
-            } else if (colour === "オレンジ" && number === 2) {
+            } else if (colour === "紫" && number === 2) {
                 result = "中吉";
             }
 
