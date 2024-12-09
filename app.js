@@ -5,19 +5,19 @@
 
             if (colour === "肉っしょ" && == "たまご" ) {
                 result = "小吉";
-            } else if (colour === "肉っしょ" && =="") {
+            } else if (colour === "肉っしょ" && =="大根") {
                 result = "中吉";
             } else if (colour === "肉っしょ" && == "ねぎ") {
                 result = "凶";
             } else if (colour === "魚かな" && == "たまご" ) {
                 result = "中吉";
-            } else if (colour === "魚かな" && == "" ) {
+            } else if (colour === "魚かな" && == "大根" ) {
                 result = "中吉";
             } else if (colour === "魚かな" && == "ねぎ") {
                 result = "大凶";
             } else if (colour === "麺だね" && == "たまご") {
                 result = "凶";
-            } else if (colour === "麺だね" && == "") {
+            } else if (colour === "麺だね" && == "大根") {
                 result = "大吉";
             } else if (colour === "麺だね" && == "ねぎ") {
                 result = "中吉";
