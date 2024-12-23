@@ -1,4 +1,4 @@
-        function checkFortune() {
+        function dinner() {
             var colour = document.getElementById('food-select').value;
             var number = parseInt(document.getElementById('number-input').value, 10);
             var result = "親子丼"; // デフォルトの値
