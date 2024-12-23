@@ -1,6 +1,6 @@
         function dinner() {
             var colour = document.getElementById('coler-select').value;
-        　　var food = parseInt(document.getElementById('food-select').value, 10);
+        　　var food = document.getElementById('food-select').value;
             var result = "親子丼"; // デフォルトの値
 
             if (colour === "肉っしょ" && == "たまご" ) {
