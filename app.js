@@ -23,7 +23,7 @@ function checkFortune() {
             } else if (colour === "麺だね" && == "ねぎ") {
                 result = "ネギたっぷりラーメン";
             }
-            } ;
+            };
             document.getElementById('result-output').innerText = "あなた今日の晩御飯は【" + result + "】です";
         }       
 
