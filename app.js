@@ -26,7 +26,7 @@ function checkFortune() {
         result = "ネギたっぷりラーメン";
     }
  
-    document.getElementById('result-output').innerText = "あなたの今日の晩御飯は【" + result + "】です";
+    document.getElementById('result-output').innerText = "あなたの今日の晩御飯は【" + result + "】です!さあ、料理スタート!!";
 }
  
  
