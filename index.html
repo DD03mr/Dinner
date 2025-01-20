@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ビューポート設定を追加 -->
-<title>今日の晩御飯決めましょう。</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今日の晩御飯決めましょう。</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body bgcolor="#FFFFCC">
-</body>
-<div class="container">
-
-<div style=" background: #ffe6e8; padding: 20px; border: 2px dashed #ffb6c1; box-shadow: 0 0 0 5px #ffe6e8; -moz-box-shadow: 0 0 0 5px #ffe6e8; -webkit-box-shadow: 0 0 0 5px #ffe6e8; font-size: 110%;">今日の晩御飯何にしようかな…</div>
+    <div class="container">
+        <div style="background: #ffe6e8; padding: 20px; border: 2px dashed #ffb6c1; box-shadow: 0 0 0 5px #ffe6e8; font-size: 110%;">今日の晩御飯何にしようかな…</div>
         <br>
-<label for="colour-select">今日の気分は？</label>                                                                                                                                                                             
-<select id="colour-select">
-<option value="肉っしょ">肉っしょ</option>
-<option value="魚かな">魚かな</option>
-<option value="麺だね">麺だね</option>
-</select>
- 
-         <br>
-<label for="food-select">用意できる食材は？</label>
-<select id="food-select">
-<option value="たまご">たまご</option>
-<option value="大根">大根</option>
-<option value="ねぎ">ねぎ</option>
-</select>
-<br>
-<button onclick="checkFortune()">夜ご飯はこれだ！！</button>
-    </div>    
-  </body>
+        <label for="colour-select">今日の気分は？</label>
+        <select id="colour-select">
+            <option value="肉っしょ">肉っしょ</option>
+            <option value="魚かな">魚かな</option>
+            <option value="麺だね">麺だね</option>
+        </select>
+        <br>
+        <label for="food-select">用意できる食材は？</label>
+        <select id="food-select">
+            <option value="たまご">たまご</option>
+            <option value="大根">大根</option>
+            <option value="ねぎ">ねぎ</option>
+        </select>
+        <br>
+        <button onclick="checkFortune()">夜ご飯はこれだ！！</button>
+        <div id="result-output"></div> <!-- 結果表示用のdiv -->
+    </div>
     <script src="app.js"></script>
+</body>
 </html>
+ 
