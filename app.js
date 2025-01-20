@@ -25,5 +25,4 @@ function checkFortune() {
  
             document.getElementById('result-output').innerText = "あなた今日の晩御飯は【" + result + "】です";
         }       
- alert('今日の晩御飯は ' + colour + ' と ' + food + ' に決まりました！');
-}
+
