@@ -1,13 +1,11 @@
 function checkFortune() {
     console.log("checkFortune");
  
-    // 選択された気分と食材を取得
     var colour = document.getElementById('colour-select').value;
     var food = document.getElementById('food-select').value;
  
     var result = "親子丼"; // デフォルトの料理
  
-    // 気分と食材に基づいて結果を決定
     if (colour === "肉っしょ" && food === "たまご") {
         result = "親子丼";
     } else if (colour === "肉っしょ" && food === "大根") {
@@ -28,7 +26,6 @@ function checkFortune() {
         result = "ネギたっぷりラーメン";
     }
  
-    // 結果を表示
     document.getElementById('result-output').innerText = "あなたの今日の晩御飯は【" + result + "】です";
 }
  
